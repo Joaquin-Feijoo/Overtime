@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+#centrar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

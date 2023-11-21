@@ -1,0 +1,38 @@
+.uk-subnav-pill>*> :first-child {
+  padding: 5px 10px;
+  background: transparent;
+  color: #999;
+}
+
+/* Hover + Focus */
+.uk-subnav-pill>*>a:hover,
+.uk-subnav-pill>*>a:focus {
+  background-color: #A1B8D2;
+  color: #fff;
+}
+
+/* OnClick */
+.uk-subnav-pill>*>a:active {
+  background-color: #A1B8D2;
+  color: #fff;
+}
+
+/* Active */
+.uk-subnav-pill>.uk-active>a {
+  background-color: #0c3866;
+  color: #fff;
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

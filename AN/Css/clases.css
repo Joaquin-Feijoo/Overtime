@@ -1,0 +1,22 @@
+.div {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#subtitulo {
+    text-decoration: underline;
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

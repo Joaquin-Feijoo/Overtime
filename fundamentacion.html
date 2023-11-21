@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#252525 center/cover;;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "\2022";
+            color: #ce181e;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+    <title>Fundamentacion</title>
+</head>
+
+<body>
+    <div class="uk-container">
+        <div class="uk-padding-small">
+            <h1 class="uk-heading-medium white uk-text-center">Fundamentación</h1>
+            <div class="uk-container uk-container-small uk-flex uk-flex-center uk-flex-middle">
+                <div class="uk-overlay uk-overlay-default" id="div-txt">
+                    <p>En esta oportunidad, hemos destinado al desarrollo de software lúdico para trabajar el
+                        aprendizaje
+                        del Idioma Inglés
+                        Nos hemos propuesto, realizar una aplicación Web / Mobile en la cual desarrollar diferentes
+                        plantillas para que eventuales
+                        usuarios practiquen y refuercen el idioma ingles. Los temas que se abordan en la aplicacion son:
+                        Present Simple, Present Continuos,
+                        Simple Past Tense (Regular Verbs), Affirmative and negative sentences and questions Past Simple.
+                    </p>
+                    <h3 class="bl">Expectativas de OverTime</h3>
+                    <p>
+                        Como programadores, la expectativa a nivel áulico será la de favorecer la enseñanza y el
+                        aprendizaje de las capacidades sociales.
+                        En este caso tenemos la oportunidad de contribuir a la mejora y al aumento del bienestar
+                        comunitario.
+                    </p>
+                    <p class="uk-text-center uk-text-emphasis">Lela Matías / Sagaut Ignacio / Sotomayor
+                        Ignacio / Feijóo Joaquín - Septiembre / Octubre 2021&reg;
+                    </p>
+                    <div class="uk-button-group uk-flex uk-flex-right">
+                        <a class="uk-button white bl-f button-bl" href="index.html">Inicio</a>
+                        <a class="uk-button white bl-f button-bl" href="creditos.html">Créditos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/auxiliar.js"></script>
+    <script src="js/answer.js"></script>
+    <script>
+        MostrarB($("#div-txt"), 0, "slow");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+function resultado(){
+    var c=0;
+    if(document.getElementById('r2').checked){
+        c++;
+    }
+    if(document.getElementById('r4').checked){
+        c++;
+    }
+    if(document.getElementById('r6').checked){
+        c++;
+    }
+    if(document.getElementById('r8').checked){
+        c++;
+    }
+    if(document.getElementById('r10').checked){
+        c++;
+    }
+    if(document.getElementById('r11').checked){
+        c++;
+    }
+    if(document.getElementById('r13').checked){
+        c++;
+    }
+    if(document.getElementById('r15').checked){
+        c++;
+    }
+    if(document.getElementById('r17').checked){
+        c++;
+    }
+    if(document.getElementById('r20').checked){
+        c++;
+    }
+    if(document.getElementById('r23').checked){
+        c++;
+    }
+    if(document.getElementById('r25').checked){
+        c++;
+    }
+    if(document.getElementById('r26').checked){
+        c++;
+    }
+    if(document.getElementById('r29').checked){
+        c++;
+    }
+    if(document.getElementById('r30').checked){
+        c++;
+    }
+    if(document.getElementById('r32').checked){
+        c++;
+    }
+    if(document.getElementById('r35').checked){
+        c++;
+    }
+    if(document.getElementById('r36').checked){
+        c++;
+    }
+    if(document.getElementById('r39').checked){
+        c++;
+    }
+    if(document.getElementById('r40').checked){
+        c++;
+    }
+    if(document.getElementById('r41').checked){
+        c++;
+    }
+    if(document.getElementById('r43').checked){
+        c++;
+    }
+    if(document.getElementById('r45').checked){
+        c++;
+    }
+    if(document.getElementById('r47').checked){
+        c++;
+    }
+    if(c<24){
+        swal("Ups.. Segui intentando","Tenes "+c+" de 47 puntos","error")
+    }
+    else{
+        swal("Felicidades!! Pasaste","Tenes "+c+" de 36 puntos","success",
+        {closeOnClickOutside: false}).then((value)=>{
+            window. location = "https://overtime21.000webhostapp.com/pagina4.html";
+        });    }
+}

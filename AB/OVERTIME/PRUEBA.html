@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="img/cambridge.ico">
+  <title>FORMULARIO</title>
+</head>
+
+<body>
+  <main>
+    <h1 class="titulo">EXERCISES<br> REGULAR VERBS</h1>
+    <!-- /////////////	-->
+    <div class="categorias" id="categorias">
+      <div class="categoria activa" data-categoria="metodos-pago">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path
+            d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z" />
+        </svg>
+        <p>Base form: <br> Add: ED</p>
+      </div>
+      <div class="categoria" data-categoria="entregas">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path
+            d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z" />
+        </svg>
+        <p>Double the consonant(2x) <br> Add + ED</p>
+      </div>
+      <div class="categoria" data-categoria="seguridad">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path
+            d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z" />
+        </svg>
+        <p>Verbs that end in -E <br> Add -D</p>
+      </div>
+      <div class="categoria" data-categoria="cuenta">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path
+            d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z" />
+        </svg>
+        <p>Remove -Y <br> Add: ied</p>
+      </div>
+    </div>
+    <!-- //////////// -->
+    <div class="preguntas">
+      <div class="contenedor-preguntas activo" data-categoria="metodos-pago">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">EXAMPLES<img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+          <p class="respuesta">listenED, playED </p>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta">ANSWER<br />
+          </div>
+          <div class="respuestas">
+            COOK<label for="truefalse"></label>
+            <select id="field" name="field"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">COOKED</option>
+              <option value="1">COKED</option>
+            </select>
+            <br>
+            LOOK<label for="truefalse"></label>
+            <select id="field2" name="field2"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">LOOKED</option>
+              <option value="1">LOOKEED</option>
+            </select>
+            <br>
+            CALL<label for="truefalse"></label>
+            <select id="field3" name="field3"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">CALLED</option>
+              <option value="0">CALED</option>
+            </select>
+            <br>
+            WALK<label for="truefalse"></label>
+            <select id="field4" name="field4"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">WALKED</option>
+              <option value="1">WOLKED</option>
+            </select>
+            <br>
+            PLAY<label for="truefalse"></label>
+            <select id="field5" name="field5"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">PLAIED</option>
+              <option value="0">PLAYED</option>
+            </select>
+            <br>
+            HELP<label for="truefalse"></label>
+            <select id="field6" name="field6"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">HELPPED</option>
+              <option value="0">HELPED</option>
+            </select>
+            <br>
+            OPEN<label for="truefalse"></label>
+            <select id="field7" name="field7"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">OPENED</option>
+              <option value="0">OPENEED</option>
+            </select>
+            <br>
+            WATCH<label for="truefalse"></label>
+            <select id="field8" name="field8"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">WATTCHED</option>
+              <option value="0">WATCHED</option>
+            </select>
+            <br>
+            PAINT<label for="truefalse"></label>
+            <select id="field8" name="field9"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">PAINTTED</option>
+              <option value="0">PAINTED</option>
+            </select>
+            <br>
+            JUMP<label for="truefalse"></label>
+            <select id="field8" name="field10"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">JUMPED</option>
+              <option value="0">JOOMPED</option>
+            </select>
+            <br>
+            BRUSH<label for="truefalse"></label>
+            <select id="field8" name="field11"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">BRUSHED</option>
+              <option value="0">BRUSED</option>
+            </select>
+            <br>
+            FOLLOW<label for="truefalse"></label>
+            <select id="field8" name="field12"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">FOLLOWED</option>
+              <option value="0">FOLLOWWED</option>
+            </select>
+            <br>
+          </div>
+        </div>
+      </div>
+      <!-- //////////// -->
+      <div class="contenedor-preguntas" data-categoria="entregas">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">EXAMPLES<img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+          <p class="respuesta">skipPED,stopPED</p>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta">ANSWER<br />
+          </div>
+          <div class="respuestas">
+            SKIP<label for="truefalse"></label>
+            <select id="field" name="field13"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">SKIPPED</option>
+              <option value="1">SKIPED</option>
+            </select>
+            <br>
+            STOP<label for="truefalse"></label>
+            <select id="field2" name="field14"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">STOPPED</option>
+              <option value="1">STOPED</option>
+            </select>
+            <br>
+            PIN<label for="truefalse"></label>
+            <select id="field3" name="field15"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">PINNED</option>
+              <option value="0">PINED</option>
+            </select>
+            <br>
+            CLAP<label for="truefalse"></label>
+            <select id="field4" name="field16"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">CLAPPED</option>
+              <option value="1">CLAPED</option>
+            </select>
+            <br>
+            HOP<label for="truefalse"></label>
+            <select id="field5" name="field"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">HOPPED</option>
+              <option value="0">HOPED</option>
+            </select>
+            <br>
+            ZIP<label for="truefalse"></label>
+            <select id="field6" name="field6"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">ZIPPED</option>
+              <option value="0">ZIPEED</option>
+            </select>
+            <br>
+          </div>
+        </div>
+      </div>
+      <!-- ///////////// -->
+      <div class="contenedor-preguntas" data-categoria="seguridad">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">EXAMPLES <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+          <p class="respuesta">closeD, openeD</p>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta">ANSWER<br />
+          </div>
+          <div class="respuestas">
+            CLOSE<label for="truefalse"></label>
+            <select id="field" name="field"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">CLOSED</option>
+              <option value="1">CLOSEED</option>
+            </select>
+            <br>
+            LIKE<label for="truefalse"></label>
+            <select id="field2" name="field2"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">LIKED</option>
+              <option value="1">LIKKED</option>
+            </select>
+            <br>
+            LIVE<label for="truefalse"></label>
+            <select id="field3" name="field3"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">LIVED</option>
+              <option value="0">LIVET</option>
+            </select>
+            <br>
+            SHARE<label for="truefalse"></label>
+            <select id="field4" name="field4"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">SHAREED</option>
+              <option value="1">SHARED</option>
+            </select>
+            <br>
+            USE<label for="truefalse"></label>
+            <select id="field5" name="field5"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">USEED</option>
+              <option value="0">USED</option>
+            </select>
+            <br>
+            SAVE<label for="truefalse"></label>
+            <select id="field6" name="field6"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">SAFED</option>
+              <option value="0">SAVED</option>
+            </select>
+            <br>
+            LOVE<label for="truefalse"></label>
+            <select id="field7" name="field7"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">LOVET</option>
+              <option value="0">LOVED</option>
+            </select>
+            <br>
+            MOVE<label for="truefalse"></label>
+            <select id="field8" name="field8"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">MOVEED</option>
+              <option value="0">MOVED</option>
+            </select>
+            <br>
+
+          </div>
+        </div>
+      </div>
+      <!-- ///////////// -->
+      <div class="contenedor-preguntas" data-categoria="cuenta">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">EXAMPLES<img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+          <p class="respuesta">crIED,trIED</p>
+        </div>
+        <div class="pregresp">
+          <div class="pregunta">ANSWER<br />
+          </div>
+          <div class="respuestas">
+            CRY<label for="truefalse"></label>
+            <select id="field" name="field"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">CRIED</option>
+              <option value="1">CRYED</option>
+            </select>
+            <br>
+            FRY<label for="truefalse"></label>
+            <select id="field2" name="field2"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">FRIED</option>
+              <option value="1">FRYED</option>
+            </select>
+            <br>
+            TRY<label for="truefalse"></label>
+            <select id="field3" name="field3"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">TRYED</option>
+              <option value="0">TRIED</option>
+            </select>
+            <br>
+            DRY<label for="truefalse"></label>
+            <select id="field4" name="field4"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="0">DRYED</option>
+              <option value="1">DRIED</option>
+            </select>
+            <br>
+            STUDY<label for="truefalse"></label>
+            <select id="field5" name="field5"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">STUDIED</option>
+              <option value="0">STUDYED</option>
+            </select>
+            <br>
+            CARRY<label for="truefalse"></label>
+            <select id="field6" name="field6"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">CARRIED</option>
+              <option value="0">CARRYED</option>
+            </select>
+            <br>
+            MARRY<label for="truefalse"></label>
+            <select id="field7" name="field7"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">MARRIED</option>
+              <option value="0">MARRYED</option>
+            </select>
+            <br>
+            COPY<label for="truefalse"></label>
+            <select id="field8" name="field8"
+              class="uk-select uk-border-rounded uk-form-success uk-form-width-small uk-form-small">
+              <option value="0" selected></option>
+              <option value="1">COPYED</option>
+              <option value="0">COPIED</option>
+            </select>
+            <br>
+          </div>
+        </div>
+      </div>
+      <input class="uk-button uk-button-primary uk-align-center" type="button" value="Comprobar respuestas" id="enviar"
+        onclick="comprobar()">
+    </div>
+  </main>
+  <script src="/js/doggo.js"></script>
+  <script src="js/categorias.js"></script>
+  <script src="js/consultas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="Js/Verificar.js"></script>
+	<script src="../js/alert.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+
+	<title>Overtime</title>
+</head>
+<body class="uk-background-secondary">
+	<div class="uk-card uk-card-body">
+		<ul class="uk-subnav uk-subnav-pill uk-flex-center" uk-switcher="animation: uk-animation-fade">  
+				<a href="#" aria-expanded="true"><li>Ejercicio 1</li></a>
+				<a href="#" aria-expanded="false"><li hidden></li></a>
+				<a href="#" aria-expanded="false"><li>Ejercicio 2</li></a>
+				<a href="#" aria-expanded="false"><li hidden></li></a>
+				<a href="#" aria-expanded="false"><li>Ejercicio 3</li></a>
+				<a href="#" aria-expanded="false"><li>Ejercicio 4</li></a>
+				<a href="#" aria-expanded="false"><li>Ejercicio 5</li></a>
+		</ul>
+
+
+
+		<ul class="uk-switcher">
+		<li>
+
+		<h1 class="Tituloo"; style="color:white" "text-align:center;" >COUNTABLE/UNCOUNTABLE</h1>
+
+
+		<h2 style="color:white">1)	Fill the gaps with A/AN/SOME/ANY</h2>
+			1. There is 
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox1">
+		        	<option hidden selected value="0"></option>
+		            <option value="0">a</option>
+		            <option value="1">an</option>
+		            <option value="'0">some</option>
+					<option value="0">any</option>
+		        </select> apple.
+		    <p>2. There aren`t
+		        <select  class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox2">
+		        	<option hidden selected value="0"></option>
+		            <option value="0">a</option>
+		            <option value="0">an</option>
+		            <option value="0">some</option>
+					<option value="1">any</option>
+		        </select> oranges.
+				<p>3. There aren`t 
+					<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small rojo-f"  id="selectbox3">
+						<option hidden selected value="0"></option>
+						<option value="0">a</option>
+						<option value="0">an</option>
+						<option value="0">some</option>
+						<option value="1">any</option>
+					</select> eggs.
+				<p>4. There is
+		    	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox4">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> butter.
+		    <p>5.  There isen`t
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox5">
+				<option hidden selected value="0"></option>
+				<option value="0">a</option>
+				<option value="0">an</option>
+				<option value="1">some</option>
+				<option value="0">any</option>
+		        </select> sandwich.
+		    <p>6. There isn`t
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox6">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="0">some</option>
+					<option value="1">any</option>
+		        </select> milk.
+		    <p>7. There is 
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox7">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> pineapple juice.
+		    <p>8. There are
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox8">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> bananas.                    
+		    <p>9. There aren´t
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox9">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="0">some</option>
+					<option value="1">any</option>
+		        </select> cakes.
+		    <p>10. There is 
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox10">
+					<option ></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> bread.
+		    <p>11. There isn´t
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox11">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="0">some</option>
+					<option value="1">any</option>
+		        </select> rice.<p>
+		    <p>12. There are
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox12">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> tomatoes.
+		    <p>13. There is 
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox13">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="1">some</option>
+					<option value="0">any</option>
+		        </select> <br> jam.
+		    <p>14. There isn´t
+		        <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox14">
+					<option hidden selected value="0"></option>
+					<option value="0">a</option>
+					<option value="0">an</option>
+					<option value="0">some</option>
+					<option value="1">any</option>
+		        </select> cheese.
+</li>
+
+	<hr>
+	<li>
+			<h2 style="color:white">2)   Fill the gaps with HOW MUCH or HOW MANY</h2>
+			<p>1.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox15">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> potatoes are there?
+			<p>2.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox16">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> pizza is there?
+			<p>3.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox17">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> honey is there?
+			<p>4.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox18">
+					<option hidden selected value="0"></option>
+					<option value="0">How much</option>
+					<option value="1">How many</option>
+				</select> bottles of milk are there?
+			<p>5.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox19">
+					<option hidden selected value="0"></option>
+				    <option value="0">How much</option>
+					<option value="1">How many</option>
+				</select> strawbirries are there?
+			<p>6.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox20">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> meat is there?
+			<p>7.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox21">
+					<option hidden selected value="0"></option>
+					<option value="0">How much</option>
+					<option value="1">How many</option>
+				</select> peaches are there?
+			<p>8.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox22">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> ham is there?
+			<p>9.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox23">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> salad is there?
+			<p>10.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox24">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> fish is there?
+			<p>11.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox25">
+					<option hidden selected value="0"></option>
+					<option value="1">How much</option>
+					<option value="0">How many</option>
+				</select> slices of bread are there?
+			<p>12.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox26">
+					<option hidden selected value="0"></option>
+					<option value="0">How much</option>
+					<option value="1">How many</option>
+				</select> butter is there?
+			</li>
+<hr>
+<li>
+<h2 style="color:white">3)	Make questions. Example: How much fruit is there? There is some fruit</h2>
+			<p>1.
+			<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox27">
+				<option hidden selected value="0"></option>
+				<option value="0">How much eggs is there</option>
+				<option value="1">How many eggs are there</option>
+				<option value="0">How much eggs are there</option>
+			</select> ? There are a lor of eggs.
+			<p>2.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox29">
+					<option hidden selected value="0"></option>
+					<option value="0">How much juice is there</option>
+					<option value="1">How much tomato juice is there</option>
+					<option value="0">How many juice isn´t there</option>
+				</select> ? There ins´t any tomato juice.
+			<p>3.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox30">
+					<option hidden selected value="0"></option>
+					<option value="1">How much paste is there</option>
+					<option value="0">How many pasta are there</option>
+					<option value="0">How many pasta is there</option>
+				</select> ? There is a packet of pasta.
+			<p>4.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox31">
+					<option hidden selected value="0"></option>
+					<option value="1">How many pepper is there</option>
+					<option value="0">How many peppers are</option>
+					<option value="0">How much peppers are there</option>
+				</select> ? There are there red peppers.
+			<p>5.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox32">
+					<option hidden selected value="0"></option>
+					<option value="0">How many  beans is there</option>
+					<option value="1">How many  beans are there</option>
+					<option value="0">How much  beans are there</option>
+				</select> ? There are a lot of beans.
+			<p>6.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox33">
+					<option hidden selected value="0"></option>
+					<option value="1">How much pizza is there</option>
+					<option value="0">How much pizza are there</option>
+					<option value="0">How many pizza are there</option>
+				</select> ? There is some pizza.
+			<p>7.
+				<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox34">
+					<option hidden selected value="0"></option>
+					<option value="0">How much salt are there</option>
+					<option value="1">How much salt is there</option>
+					<option value="0">How many salt are there</option>
+				</select> ? There is a litlle salt.
+<hr>
+</li>
+<li>
+<h2 style="color:white">4)	Fill the gaps with
+		a/an/some/any/is/are/much/many
+</h2>
+<p>Lisa: I´m hungry <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox35">
+				      <option hidden selected value="0"></option>                           
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">is</option>
+								    <option value="1">are</option>
+									   <option value="0">much</option>
+									      <option value="0">many</option>
+							</select> there any chips?
+<p>Tom: No, there <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox36">
+				      <option hidden selected value="0"></option>
+						 <option value="1">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">any</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> any but there is
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox37">
+				      <option hidden selected value="0"></option>
+						 <option value="1">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> ham
+<p>Lisa: Great, I´ll have the ham sandwich and then <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox38">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="1">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> orange. Is there					
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox39">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="1">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> ice-cream left?
+<p>Tom: No, there <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox40">
+				      <option hidden selected value="0"></option>
+			             <option value="1">a</option>
+					        <option value="0">an</option>     
+						       <option value="0">any</option>
+							      <option value="0">some</option>
+							         <option value="0">is</option>
+									    <option value="0">are</option>
+										   <option value="0">much</option>
+										      <option value="0">many</option>
+									  </select> any ice-crea . I´ll go to the supermarcket. How						
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox41">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="1">many</option>
+							</select> tomatoes are there?
+<p>Lisa: There <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox42">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">some</option>
+								    <option value="1">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> only one. We should buy	
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox43">
+				      <option hidden selected value="0"></option>
+						 <option value="0s">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="1">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> more tomatoes. Oh! How											
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox44">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="1">much</option>
+										     <option value="0">many</option>
+							</select> butter is there?
+<p>Tom: There isn´t <select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox45">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="1">any</option>
+							     <option value="0">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										     <option value="0">many</option>
+							</select> . And we need
+<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox46">
+				      <option hidden selected value="0"></option>
+						 <option value="0">a</option>
+                           <option value="0">an</option>     
+						      <option value="0">any</option>
+							     <option value="1">some</option>
+								    <option value="0">is</option>
+									   <option value="0">are</option>
+									      <option value="0">much</option>
+										      <option value="0">many</option>
+							</select> sugar, too.
+<hr>
+</li>
+<li>
+<h2 style="color:white; text-align:center;">COUNTABLE OR UNCOUNTABLE</h2>
+<h3 style="color:white">Write C for countable or U for uncountable</h3>
+<p>1. OLi
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox47">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>2. Sugar
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox48">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>3. Chicken
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox49">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>4. Peas
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox50">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>5. Flour
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox51">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>6. Cheese
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox52">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>7. Vinager
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox53">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>8. Pepper
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox54">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>9. Pasta
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox55">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>10. Honey
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox56">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>11. Tea
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox57">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>12. Eggs
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox58">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>13. Toast
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox59">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>14. Carrots
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox60">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>15. Chocolate
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox61">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>16. Prawns
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox62">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>17. Lemons
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox63">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>18. Cucumbers
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox64">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>19. Fish
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox65">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>20. Onions
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox66">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>21. Lettuce
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox67">
+		<option hidden selected value="0"></option>
+		<option value="0">C</option>
+		<option value="1">U</option>
+</select>
+<p>22. Pears
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox68">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>23. Croissants
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox69">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>24. Cup of de tea
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox70">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>25. Bottle of milk
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox71">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+<p>26. Can of coke
+	<select class="uk-select uk-border-rounded uk-form-width-small uk-form-small" id="selectbox72">
+		<option hidden selected value="0"></option>
+		<option value="1">C</option>
+		<option value="0">U</option>
+</select>
+	<input type="button" class="uk-button-danger uk-align-center uk-border-rounded" 
+		onclick="verificarRespuestas()" value="¡Terminado!"><br>
+	</div>
+	</li>
+	</ul>
+
+
+
+	</body>
+</html>

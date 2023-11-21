@@ -1,0 +1,276 @@
+.bl {
+  color: #0c3866 !important;
+}
+
+.bl-f {
+  background-color: #0c3866 !important;
+}
+
+.button-bl:hover {
+  background-color: #051e38 !important;
+}
+
+.rojo {
+  color: #ce181e !important;
+}
+
+.rojo-f {
+  background-color: #ce181e !important;
+}
+
+.gr {
+  color: #a1a1a4 !important;
+}
+
+.gr-f {
+  background-color: #a1a1a4 !important;
+}
+
+.white {
+  color: #fff !important;
+}
+
+/*media*/
+.responsive {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+}
+
+/*titulo*/
+.banner {
+  background: #ededed url(../photos/bg-1.jpg) no-repeat center/cover;
+  margin: 0;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner>* {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  padding: 5px 15px;
+  max-width: 70%;
+}
+
+.banner-title {
+  font-size: 4em;
+  margin-bottom: -0.5em;
+  transform: rotate(-6deg);
+}
+
+.banner-subtitle {
+  font-size: 1.5em;
+  box-shadow: -15px -15px 15px rgba(0, 0, 0, 0.07);
+  transform: rotate(-3deg);
+}
+
+.content {
+  position: relative;
+  background: white;
+}
+
+/* HIDE RADIO */
+
+.form-A[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+.form-A[type=radio]+img {
+  cursor: pointer;
+
+}
+
+.form-A[type=radio]+img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* CHECKED STYLES */
+.form-A[type=radio]:checked+img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.a {
+  padding: 5px !important;
+  background: #222 !important;
+}
+
+.placeholder {
+  width: 106px;
+  transition: transform 3s cubic-bezier(0, 0.55, 0.45, 1);
+  height: 25px !important;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.phAB {
+  border: 1px #ce181e solid;
+}
+
+.phBB {
+  border: 1px #0c3866 solid;
+}
+
+.height {
+  min-height: 25px;
+  text-align: center;
+}
+
+.uk-form-red,
+.uk-form-red:focus {
+  color: #d31e24 !important;
+  border-color: #ce181e !important
+}
+
+.top-wrap::before,
+.overlay-wrap::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-wrap-height {
+  height: 80vh;
+  min-height: 460px;
+  transition: height 0.25s;
+}
+
+.uk-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -20px;
+  padding: 0;
+  list-style: none
+}
+
+.uk-subnav>* {
+  flex: none;
+  padding-left: 20px;
+  position: relative
+}
+
+.uk-subnav>*>:first-child {
+  display: flex;
+  align-items: center;
+  column-gap: .25em;
+  color: #999;
+  font-size: .875rem;
+  text-transform: uppercase;
+  transition: .1s ease-in-out;
+  transition-property: color, background-color
+}
+
+.uk-subnav>*>a:focus,
+.uk-subnav>*>a:hover {
+  color: #666;
+  text-decoration: none;
+  outline: 0
+}
+
+.uk-subnav>.uk-active>a {
+  color: #333
+}
+
+.uk-subnav-divider {
+  margin-left: -41px
+}
+
+.uk-subnav-divider>* {
+  display: flex;
+  align-items: center
+}
+
+.uk-subnav-divider>::before {
+  content: "";
+  height: 1.5em;
+  margin-left: 0;
+  margin-right: 20px;
+  border-left: 1px solid transparent
+}
+
+.uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
+  border-left-color: #e5e5e5
+}
+
+.uk-subnav-pill>*>:first-child {
+  padding: 5px 10px;
+  background: 0 0;
+  color: #999
+}
+
+.uk-subnav-pill>*>a:focus,
+.uk-subnav-pill>*>a:hover {
+  background-color: #f8f8f8;
+  color: #666
+}
+
+.uk-subnav-pill>*>a:active {
+  background-color: #f8f8f8;
+  color: #666
+}
+
+.uk-subnav-pill>.uk-active>a {
+  background-color: #0c3866;
+  color: #fff
+}
+
+.uk-subnav>.uk-disabled>a {
+  color: #999
+}
+
+.uk-subnav-pill>*> :first-child {
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.top-container {
+  z-index: 2;
+}
+
+.uk-button-success {
+  background-color: #32d296;
+  color: #fff;
+  border: 1px solid transparent
+}
+
+.uk-button-success:focus,
+.uk-button-success:hover {
+  background-color: #2bb180;
+  color: #fff
+}
+
+.uk-button-success.uk-active,
+.uk-button-success:active {
+  background-color: #01bb77;
+  color: #fff
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

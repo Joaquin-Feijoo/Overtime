@@ -1,0 +1,54 @@
+.bl {
+    color: #0c3866 !important;
+}
+
+.bl-f {
+    background-color: #0c3866 !important;
+}
+
+.rojo {
+    color: #ce181e !important;
+}
+
+.rojo-f {
+    background-color: #ce181e !important;
+}
+
+.gr {
+    color: #a1a1a4 !important;
+}
+
+.gr-f {
+    background-color: #a1a1a4 !important;
+}
+
+.green {
+    color: #32d296 !important;
+}
+
+.green-f {
+    background-color: #32d296 !important;
+}
+
+body {
+    background-color: rgb(66, 69, 238);
+
+}
+
+p {
+    color: white;
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

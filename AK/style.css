@@ -1,0 +1,21 @@
+.bkl-red {
+    background-color: #C60000 !important;
+}
+
+.bkl-green {
+    background-color: #8AC600 !important;
+}
+
+/* Oculta la barra de desplazamiento para Chrome, Safari y Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Oculta la barra de desplazamiento para IE, Edge y Firefox */
+html,
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
